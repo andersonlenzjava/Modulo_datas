@@ -11,7 +11,7 @@ public class DatasEmJava {
 		Date date = new Date();//Instanciação do objeto da classe que recebe os dados 
 		//métodos desta classe (ler a documentação de cada método para saber o que faz)
 		System.out.println(" Data em milisegundos: " + date.getTime());//quando vc aperta o espaço aparece o tipo de váriavel que retorna
-		
+		ff
 		System.out.println(" Dia do mês: " + date.getDate());
 		
 		System.out.println(" Dia da semana: " + date.getDay());
