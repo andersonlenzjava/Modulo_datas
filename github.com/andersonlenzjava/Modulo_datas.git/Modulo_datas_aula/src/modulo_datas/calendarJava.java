@@ -11,8 +11,6 @@ public class calendarJava {
 		
 		Calendar calendar = Calendar.getInstance();
 		
-		Date date = new Date();
-		
 		System.out.println(" Calendar em milisegundos: " + calendar.getTimeInMillis());
 		
 		System.out.println("Calendar: Dia do mês: " + calendar.get(Calendar.DAY_OF_MONTH));
@@ -42,7 +40,7 @@ public class calendarJava {
 		
 		simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");//sem a hora minuto e segundo
 		System.out.println("Objeto Date: "+ simpleDateFormat.parse("1992-09-03"));
-	
+		//toda vez que for mudar o formato preciso instanciar ele 
 	}
 
 }
